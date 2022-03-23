@@ -24,6 +24,8 @@
 		"webpack-dev-server": "^4.7.4"
 	},
 	"dependencies": {
-		"react-hot-loader": "^4.13.0"
+		"react-hot-loader": "^4.13.0",
+		"react-redux": "^7.2.6",
+		"redux": "^4.1.2"
 	}
 }
