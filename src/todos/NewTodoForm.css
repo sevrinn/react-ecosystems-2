@@ -1,0 +1,29 @@
+.new-todo-form {
+	width: 600px;
+	margin: 0 auto;
+	padding: 10px 30px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 10px grey;
+}
+
+.new-todo-input {
+	width: 400px;
+	border-color: whitesmoke;
+	border-width: 0.5px;
+	border-style: solid;
+}
+
+.new-todo-input:focus {
+	border-width: 1px;
+
+	border-style: solid;
+}
+
+.new-todo-button {
+	margin-left: 10px;
+	border-radius: 5px;
+	border-style: solid;
+	border: none;
+	background-color: lime;
+	padding: 5px;
+}

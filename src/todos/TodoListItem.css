@@ -1,0 +1,25 @@
+.todo-item-container {
+	width: 600px;
+	margin: 20px auto;
+	padding: 10px 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 3px 3px 10px grey;
+	border-radius: 10px;
+}
+
+.completed-btn {
+	border-radius: 5px;
+	border: none;
+	background-color: lime;
+	padding: 5px;
+}
+
+.remove-btn {
+	margin-left: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: crimson;
+	padding: 5px;
+}
