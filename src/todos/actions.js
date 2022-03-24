@@ -13,3 +13,10 @@ export const removeTodo = (text) => ({
 	type: REMOVE_TODO,
 	payload: { text },
 })
+
+export const MARK_COMPLETE = 'MARK_COMPLETE'
+
+export const markComplete = (text) => ({
+	type: MARK_COMPLETE,
+	payload: { text },
+})
